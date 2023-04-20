@@ -1,1 +1,0 @@
-# Teste 1 para ads via Google adsense
