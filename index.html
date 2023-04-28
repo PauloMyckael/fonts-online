@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selecionar Fonte</title>
+    <title>Fontes</title>
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <div class="header"></div>
     <section class="sectionFonts">
-      <h1>Selecionar Fonte</h1>
+      <h1>Formatação de texto</h1>
+      <br>
       <label for="fonte">Selecione uma fonte:</label>
       <select class="fonte" id="fonte" onchange="atualizarTextoFormatado()">
         <option value="Arial, sans-serif" style="font-family: Arial, sans-serif;">Arial</option>
@@ -26,7 +26,9 @@
       <br>
       <textarea class="texto-formatado" id="texto-formatado" rows="10" cols="50" readonly></textarea>
       <br>
-      <button class="copiarTexto" onclick="copiarTexto()">Copiar Texto</button>
+      <div class="button">
+        <button class="copiarTexto" onclick="copiarTexto()">Copiar Texto</button>
+      </div>
     </section>
     <script src="./scripts/fontes.js"></script>
 
